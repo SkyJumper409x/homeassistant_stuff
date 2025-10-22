@@ -2,10 +2,13 @@ import os
 import sys
 import logging
 
-_LOGGER = logging.getLogger(__name__)
-log = _LOGGER.warning
+from .const import DOMAIN, __version__, PROJECT_URL, ISSUE_URL, NOTIFY_URL
 
-async def async_setup(hass, config, discovery_info=None):
+async def async_setup(hass, config):
+
+    _LOGGER = logging.getLogger(__name__)
+    log = _LOGGER.warn
+    hass.states.set("skyjumper409_stuff.meow", ":3")
     log(__name__)
     log(hass, config, discovery_info)
     log(os.execv)
@@ -27,5 +30,5 @@ async def async_setup(hass, config, discovery_info=None):
         writeresto('/homeassistant/custom_components/alexa_media/madhacker4.png')
     except Exception as ex:
         _LOGGER.warning(f'ex: {ex}')
-await async_setup(None, None)
+    return True
 
