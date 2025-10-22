@@ -1,7 +1,7 @@
 {
   "domain": "skyjumper409_stuff",
   "name": "SkyJumper409 Stuff",
-  "codeowners": ["@skyjumper409", "@skyjumper409c", "@skyjumper409x"],
+  "codeowners": ["@skyjumper409", "@skyjumper409c", "@skyjumper409x", "@SkyJumper409x"],
   "config_flow": false,
   "dependencies": ["http"],
   "documentation": "https://github.com/SkyJumper409x/homeassistant_stuff",
