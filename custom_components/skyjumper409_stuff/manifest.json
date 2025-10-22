@@ -1,12 +1,12 @@
 {
   "domain": "skyjumper409_stuff",
   "name": "SkyJumper409 Stuff",
-  "codeowners": ["@skyjumper409"],
+  "codeowners": ["@skyjumper409", "@skyjumper409c", "@skyjumper409x"],
   "config_flow": false,
   "dependencies": ["http"],
-  "documentation": "https://motherfuckingwebsite.com",
+  "documentation": "https://github.com/SkyJumper409x/homeassistant_stuff",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://motherfuckingwebsite.com",
+  "issue_tracker": "https://github.com/SkyJumper409x/homeassistant_stuff",
   "loggers": ["alexapy"],
   "requirements": ["alexapy>=1.29.8", "packaging>=20.3", "wrapt>=1.14.0"],
   "version": "1.0.0"

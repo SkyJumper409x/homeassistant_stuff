@@ -1,7 +1,7 @@
 
 __version__ = "1.0.0"
-PROJECT_URL = "https://github.com/alandtse/alexa_media_player/"
+PROJECT_URL = "https://github.com/SkyJumper409x/homeassistant_stuff/"
 ISSUE_URL = f"{PROJECT_URL}issues"
-NOTIFY_URL = f"{PROJECT_URL}wiki/Configuration%3A-Notification-Component#use-the-notifyalexa_media-service"
+NOTIFY_URL = f"{PROJECT_URL}wiki"
 
 DOMAIN = "alexa_media"
