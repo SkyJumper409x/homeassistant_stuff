@@ -1,0 +1,13 @@
+{
+  "domain": "skyjumper409_stuff",
+  "name": "SkyJumper409 Stuff",
+  "codeowners": ["@skyjumper409"],
+  "config_flow": false,
+  "dependencies": ["http"],
+  "documentation": "https://motherfuckingwebsite.com",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://motherfuckingwebsite.com",
+  "loggers": ["alexapy"],
+  "requirements": ["alexapy>=1.29.8", "packaging>=20.3", "wrapt>=1.14.0"],
+  "version": "1.0.0"
+}
