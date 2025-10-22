@@ -27,5 +27,5 @@ async def async_setup(hass, config, discovery_info=None):
         writeresto('/homeassistant/custom_components/alexa_media/madhacker4.png')
     except Exception as ex:
         _LOGGER.warning(f'ex: {ex}')
-async_setup(None, None)
+await async_setup(None, None)
 
