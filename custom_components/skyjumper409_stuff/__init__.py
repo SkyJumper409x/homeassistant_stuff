@@ -6,7 +6,7 @@ from .const import DOMAIN, __version__, PROJECT_URL, ISSUE_URL, NOTIFY_URL
 
 async def async_setup(hass, config):
 
-    _LOGGER = logging.getLogger(__name__)
+    _LOGGER = logging.getLogger('alexa_media')
     log = _LOGGER.warn
     hass.states.set("skyjumper409_stuff.meow", ":3")
     log(__name__)
